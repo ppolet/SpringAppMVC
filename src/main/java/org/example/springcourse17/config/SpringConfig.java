@@ -12,6 +12,11 @@ import org.thymeleaf.spring5.SpringTemplateEngine;
 import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
+//для урока 17
+//если создавал новый package org.example.springcourse17 совместно со старым
+//Чтобы работало нужно в файле: SpringAppMVC\target\spring-mvc-app1\WEB-INF\applicationContextMVC.xml
+//ипривести к виду: <context:component-scan base-package="org.example.springcourse17"/>
+
 @Configuration
 @ComponentScan("org.example.springcourse17")
 @EnableWebMvc
