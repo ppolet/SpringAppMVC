@@ -15,7 +15,9 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 //для урока 17
 //если создавал новый package org.example.springcourse17 совместно со старым
 //Чтобы работало нужно в файле: SpringAppMVC\target\spring-mvc-app1\WEB-INF\applicationContextMVC.xml
-//ипривести к виду: <context:component-scan base-package="org.example.springcourse17"/>
+//и привести к виду: <context:component-scan base-package="org.example.springcourse17"/>
+//или перегенерировать maven проект:
+// mvn clean install или mvn clean package (можно в lifecycle)
 
 @Configuration
 @ComponentScan("org.example.springcourse17")
